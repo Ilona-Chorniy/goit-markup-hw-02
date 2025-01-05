@@ -1,0 +1,25 @@
+.logo{
+    color:blue
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+header{
+    background-color: #fff;
+    
+    
+}
+.main-section{
+    color:#fff;
+    background-color: #2E2F42;
+    
+}
+.button{
+    color:#fff;
+    background-color:#4d5ae5;
+    cursor: pointer;
+}
