@@ -38,7 +38,7 @@ body {
     font-style: normal;
 }
 
-.email-link, .tel-link {
+.adress-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
