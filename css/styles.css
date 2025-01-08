@@ -17,7 +17,7 @@ body{
     color:#4d5ae5;
 
 }
-.web-studio_text{
+.web-studio{
 color:#2e2f42;
 }
 
@@ -39,32 +39,38 @@ color:#2e2f42;
 }
 
 
-.email-link.tel-link{
+.email-link, .tel-link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em ;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.email-link.tel-link:hover{
-    color: #404bbf
-}
-.email-link.tel-link:focus{
+.email-link:hover, .tel-link:hover {
     color: #404bbf;
 }
 
+.email-link:focus, .tel-link:focus {
+    color: #404bbf;
+}
+
+
 .main-section{
     background-color:  #2e2f42;
+  
+}
+.main-title{
     font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+    line-height: 107%;
     letter-spacing: 0.02em;
+    text-align: center;
+    
 }
 
 h1{
     color:#FFFFFF;
 }
-.button{
+.button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -75,19 +81,58 @@ h1{
     cursor: pointer;
 }
 
-.butoon:hover{
-    background-color:#404BBF ;
+.button:hover {
+    background-color: #404BBF;
 }
-.button:focus{
-    color:#404BBF;
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+
+.card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.description-text{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+
+
+
+.team-section{
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color:#2e2f42;
+}
+
+.list-item{
+    background-color: #FFFFFF;
 }
 
 .team-profile{
+   
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 120%;
     letter-spacing: 0.02em;
-    color:0.02em;
+    color:#2e2f42;
+   
+    
 }
 .team-member{
     font-size: 16px;
@@ -110,9 +155,10 @@ h1{
    color:#2e2f42;
 
 }
-.portfolio-item{
-    background-color: #FFFFFF;
-}
+
+
+
+
 
 .portfolio-item-title{
     font-weight: 500;
@@ -145,6 +191,9 @@ span{
     letter-spacing: 0.02em;
 }
 
+.web-studio_text{
+    color: #f4f4fd;
+}
 
 ul{
     list-style-type: none;
