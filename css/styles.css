@@ -38,18 +38,18 @@ body {
     font-style: normal;
 }
 
-.adress-link {
+.address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.email-link:hover, .tel-link:hover {
+.address-link {
     color: #404bbf;
 }
 
-.email-link:focus, .tel-link:focus {
+.address-link{
     color: #404bbf;
 }
 
